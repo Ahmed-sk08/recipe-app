@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Ugali",
+    "ingredients": [
+      "Flour"
+    ],
+    "instructions": "Boil with water",
+    "time": "15",
+    "servings": "2"
+  },
+  {
+    "name": "Chips",
+    "ingredients": [
+      "5 Potatoes\nOil"
+    ],
+    "instructions": "Chop potatoes and fry in oil",
+    "time": "15",
+    "servings": "2"
+  },
+  {
+    "name": "Beef stew ",
+    "ingredients": [
+      "1/2 kg beef\n4 tomatoes\n250 gm tomato paste\nGinger garlic paster\nsalt to taste"
+    ],
+    "instructions": "Boil the beef\nMake a tomato mixture\nAdd in the boiled beef\nAdd salt to taste",
+    "time": "25",
+    "servings": "3"
+  }
+]
