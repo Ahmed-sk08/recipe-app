@@ -1,38 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Add Recipe</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Submit a Recipe</h1>
-    <nav>
-      <a href="index.html">Home</a>
-    </nav>
-  </header>
-  <main>
-    <form id="recipe-form" onsubmit="submitRecipe(event)">
-      <label for="name">Recipe Name:</label>
-      <input type="text" id="name" required>
+<!DOCTYPE html> 
 
-      <label for="ingredients">Ingredients (comma-separated):</label>
-      <textarea id="ingredients" required></textarea>
+<html lang="en"> 
 
-      <label for="instructions">Instructions:</label>
-      <textarea id="instructions" required></textarea>
+<head> 
 
-      <label for="time">Cooking Time (minutes):</label>
-      <input type="number" id="time" required>
+  <meta charset="UTF-8"> 
 
-      <label for="servings">Serving Size:</label>
-      <input type="number" id="servings" required>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-      <button type="submit">Submit Recipe</button>
-    </form>
-  </main>
-  <script src="app.js"></script>
-</body>
-</html>
+  <title>Add Recipe</title> 
+
+  <link rel="stylesheet" href="styles.css"> 
+
+</head> 
+
+<body> 
+
+  <header> 
+
+    <h1>Submit a Recipe</h1> 
+
+    <nav> 
+
+      <a href="index.html">Home</a> 
+
+    </nav> 
+
+  </header> 
+
+  <main> 
+
+    <form id="recipe-form" onsubmit="submitRecipe(event)"> 
+
+      <label for="name">Recipe Name:</label> 
+
+      <input type="text" id="name" required> 
+
+     
+
+      <label for="ingredients">Ingredients (comma-separated):</label> 
+
+      <textarea id="ingredients" required></textarea> 
+
+     
+
+      <label for="instructions">Instructions:</label> 
+
+      <textarea id="instructions" required></textarea> 
+
+     
+
+      <label for="time">Cooking Time (minutes):</label> 
+
+      <input type="number" id="time" required> 
+
+     
+
+      <label for="servings">Serving Size:</label> 
+
+      <input type="number" id="servings" required> 
+
+     
+
+      <label for="category">Category:</label> 
+
+      <select id="category" required> 
+
+        <option value="">Select a category</option> 
+
+        <option value="Vegan">Vegan</option> 
+
+        <option value="Vegetarian">Vegetarian</option> 
+
+        <option value="Carnivore">Carnivore</option> 
+
+      </select> 
+
+     
+
+      <button type="submit">Submit Recipe</button> 
+
+    </form> 
+
+  </main> 
+
+  <script src="app.js"></script> 
+
+</body> 
+
+</html> 
