@@ -37,16 +37,5 @@
     "time": "10",
     "servings": "2",
     "category": "Carnivore"
-  },
-  {
-    "name": "Githeri",
-    "ingredients": [
-      "beans",
-      "maize"
-    ],
-    "instructions": "boil them together",
-    "time": "60",
-    "servings": "3",
-    "category": "Vegetarian"
   }
 ]
